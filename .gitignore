@@ -1,0 +1,25 @@
+# AVR and C build outputs
+*.o
+*.elf
+*.hex
+*.eep
+*.lss
+*.map
+*.d
+*.exe
+Debug/
+Release/
+
+# Proteus backups
+*.pdsbak
+Last Loaded *.pdsprj
+
+# IDE/editor state
+.vscode/
+.settings/
+
+# Published separately in AVR-ATmega32-Layered-Drivers
+MG_AVR_Atmega32/
+
+# Original recordings are kept locally; optimized GIF previews are published
+local_original_videos/
