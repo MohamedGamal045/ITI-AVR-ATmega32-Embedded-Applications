@@ -1,133 +1,108 @@
-# ITI AVR ATmega32 Embedded Applications
+<div align="center">
 
-This repository brings together the practical applications, C programming work, hardware-interfacing labs, Proteus simulations, and final RC car project completed during the ITI Embedded Systems diploma.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B3D91,100:00C9A7&text=Mohamed%20Gamal&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Mechatronics%20Engineer%20%E2%80%A2%20Embedded%20Systems%20Developer%20%E2%80%A2%20Creator&descAlignY=60&descSize=18" alt="Mohamed Gamal profile banner" />
 
-The `MG_AVR_Atmega32` layered driver library has already been published separately in [`AVR-ATmega32-Layered-Drivers`](https://github.com/MohamedGamal045/AVR-ATmega32-Layered-Drivers). It is intentionally not duplicated here; projects that use the shared drivers should refer to that repository.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&color=00C9A7&center=true&vCenter=true&width=750&lines=Building+Intelligent+Engineering+Solutions;Embedded+Systems+%7C+Robotics+%7C+IoT;PCB+Design+%7C+Industrial+Automation;Learn.+Build.+Innovate.+Create.+Share.)](https://git.io/typing-svg)
 
-> **Media:** Original recordings are preserved locally in the ignored `local_original_videos/` folder and are not published. Selected short GIF previews are included below for fast-loading project demos.
+[![Profile Views](https://komarev.com/ghpvc/?username=MohamedGamal045&label=PROFILE%20VIEWS&color=0B3D91&style=for-the-badge)](https://github.com/MohamedGamal045)
+[![GitHub followers](https://img.shields.io/github/followers/MohamedGamal045?label=FOLLOWERS&style=for-the-badge&color=00C9A7&labelColor=0B3D91)](https://github.com/MohamedGamal045?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/MohamedGamal045?affiliations=OWNER&label=STARS&style=for-the-badge&color=00C9A7&labelColor=0B3D91)](https://github.com/MohamedGamal045)
 
-## Repository map
+</div>
 
-| Section | Contents | Folder |
-| --- | --- | --- |
-| C programming | Clinic Management System and 13 console exercises covering operators, control flow, arrays, factorial-based permutations/combinations, and linked lists | [`01_C_Programming/`](01_C_Programming/) |
-| AVR interfacing and labs | 15 AVR peripheral demonstrations plus 9 C/algorithm labs, with source, IDE files, screenshots, and demos | [`02_AVR_Interfacing_and_Labs/`](02_AVR_Interfacing_and_Labs/) |
-| Proteus simulations | 19 Proteus projects for ADC, LCD, LED, motor, keypad, seven-segment, stepper, relay, and UART exercises | [`03_Proteus_Simulations/`](03_Proteus_Simulations/) |
-| Final RC car | ATmega32-oriented firmware for Bluetooth/manual and ultrasonic/autonomous driving, plus project photos and videos | [`04_Final_RC_Car_Project/`](04_Final_RC_Car_Project/) |
+<h2 align="center">👨‍💻 About Me</h2>
 
-## C programming projects
+I'm a **Mechatronics Engineering Technology student**, **Embedded Systems Developer**, and **Technical Content Creator** passionate about transforming engineering ideas into practical, intelligent solutions.
 
-| Project | Concepts | Folder | Screenshots / demo |
-| --- | --- | --- | --- |
-| Clinic Management System | Patient records, admin/user menus, appointment reservation and cancellation | [Project](01_C_Programming/Clinic_Management_System/) | [GIF preview](01_C_Programming/Clinic_Management_System/media/clinic_management_demo.gif) |
-| Star Pyramid | Console output and nested patterns | [Project](01_C_Programming/Exercises/Star_Pyramid/) | [Source](01_C_Programming/Exercises/Star_Pyramid/media/source.png) · [Output](01_C_Programming/Exercises/Star_Pyramid/media/output.png) |
-| Reverse Three Numbers | Input and reverse-order output | [Project](01_C_Programming/Exercises/Reverse_Three_Numbers/) | [Source](01_C_Programming/Exercises/Reverse_Three_Numbers/media/source.png) · [Output](01_C_Programming/Exercises/Reverse_Three_Numbers/media/output.png) |
-| Arithmetic and Bitwise Operators | Integer arithmetic and bitwise AND/OR/XOR | [Project](01_C_Programming/Exercises/Arithmetic_and_Bitwise_Operators/) | [Source](01_C_Programming/Exercises/Arithmetic_and_Bitwise_Operators/media/source.png) · [Output](01_C_Programming/Exercises/Arithmetic_and_Bitwise_Operators/media/output.png) |
-| ASCII Staircase | Console formatting | [Project](01_C_Programming/Exercises/ASCII_Staircase/) | [Source](01_C_Programming/Exercises/ASCII_Staircase/media/source.png) · [Output](01_C_Programming/Exercises/ASCII_Staircase/media/output.png) |
-| Largest of Three Numbers | Conditional comparisons | [Project](01_C_Programming/Exercises/Largest_of_Three_Numbers/) | [Screenshot](01_C_Programming/Exercises/Largest_of_Three_Numbers/media/screenshot.png) |
-| Command-Line Calculator | Switch/case arithmetic and divide-by-zero handling | [Project](01_C_Programming/Exercises/Command_Line_Calculator/) | [Screenshot](01_C_Programming/Exercises/Command_Line_Calculator/media/screenshot.png) |
-| Multiplication Quiz | Input validation and conditions | [Project](01_C_Programming/Exercises/Multiplication_Quiz/) | [Screenshot](01_C_Programming/Exercises/Multiplication_Quiz/media/screenshot.png) |
-| Multiplication Table | Iteration and formatted output | [Project](01_C_Programming/Exercises/Multiplication_Table/) | [Screenshot](01_C_Programming/Exercises/Multiplication_Table/media/screenshot.png) |
-| Permutations (nPr) | Factorial and combinatorics | [Project](01_C_Programming/Exercises/Permutations_nPr/) | [Screenshot](01_C_Programming/Exercises/Permutations_nPr/media/screenshot.png) |
-| Combinations (nCr) | Factorial and combinatorics | [Project](01_C_Programming/Exercises/Combinations_nCr/) | [Screenshot](01_C_Programming/Exercises/Combinations_nCr/media/screenshot.png) |
-| Array Minimum and Maximum | Arrays and sorting | [Project](01_C_Programming/Exercises/Array_Min_Max/) | [Screenshot](01_C_Programming/Exercises/Array_Min_Max/media/screenshot.png) |
-| Even/Odd Array Sums | Arrays, modulo, and accumulation | [Project](01_C_Programming/Exercises/Even_Odd_Array_Sums/) | [Screenshot](01_C_Programming/Exercises/Even_Odd_Array_Sums/media/screenshot.png) |
-| Linked List Operations | Dynamic allocation, insertion, traversal, and deletion | [Project](01_C_Programming/Exercises/Linked_List_Operations/) | [Output](01_C_Programming/Exercises/Linked_List_Operations/media/output.png) |
+I work at the intersection of **embedded systems, PCB design, computer vision, robotics, IoT, and industrial automation**—connecting hardware and software to build autonomous systems and real-world control applications.
 
-The clinic project includes a dedicated [README](01_C_Programming/Clinic_Management_System/README.md) with its features, build instructions, and demo.
+I also document my engineering journey and share technical knowledge through my **MG Engineer** platform.
 
-## Selected GIF demos
+```text
+Learn. Build. Innovate. Create. Share.
+```
 
-These short, optimized previews show the application or hardware behavior without requiring the original recordings.
+<h2 align="center">🎯 What I Build</h2>
 
-**Clinic Management System — menu and appointment workflow**
+<div align="center">
 
-![Clinic Management System demo](01_C_Programming/Clinic_Management_System/media/clinic_management_demo.gif)
+| Embedded & Hardware | Intelligent Systems | Automation & Content |
+|:---:|:---:|:---:|
+| ATmega32 applications & drivers | Computer vision projects | PLC, VFD, and HMI systems |
+| Sensors, actuators & peripherals | Autonomous and robotic systems | Industrial control solutions |
+| PCB design & hardware prototyping | Data acquisition & IoT | Technical engineering content |
 
-**LCD Name Display — characters moving across the LCD**
+</div>
 
-![LCD Name Display demo](02_AVR_Interfacing_and_Labs/Interfacing/LCD_Name_Display/media/lcd_name_display_demo.gif)
+<h2 align="center">🛠️ Technology Stack</h2>
 
-**LDR ADC Light Monitor — dark/light readings on the LCD**
+<div align="center">
 
-![LDR ADC Light Monitor demo](02_AVR_Interfacing_and_Labs/Interfacing/LDR_ADC_Light_Monitor/media/ldr_adc_demo.gif)
+<img src="https://skillicons.dev/icons?i=c,cpp,python,git,github,linux,vscode&perline=7" alt="Core development technologies" />
 
-**Timer1 Servo Position Control — changing servo angle**
+<br />
 
-![Timer1 servo position demo](02_AVR_Interfacing_and_Labs/Interfacing/Timer1_Servo_Position_Control/media/servo_position_demo.gif)
+![ATmega32](https://img.shields.io/badge/ATmega32-E34F26?style=for-the-badge&logo=atmel&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Proteus](https://img.shields.io/badge/Proteus-1C8ADB?style=for-the-badge&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
 
-**Ten-Pin Seven-Segment Display — hardware demonstration**
+</div>
 
-![Ten-pin seven-segment hardware demo](02_AVR_Interfacing_and_Labs/Interfacing/Ten_Pin_Seven_Segment_Display/media/ten_pin_seven_segment_demo.gif)
+<h2 align="center">🚀 Featured Engineering Projects</h2>
 
-## AVR interfacing projects
+<div align="center">
 
-| Project | Peripherals / concepts | Folder | Demo |
-| --- | --- | --- | --- |
-| DIP Switch LED Control | Digital I/O, DIP switches, LED bank | [Project](02_AVR_Interfacing_and_Labs/Interfacing/DIP_Switch_LED_Control/) | Original recording excluded |
-| Pushbutton Seven-Segment Counter | Pushbuttons, digital I/O, seven-segment display | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Pushbutton_Seven_Segment_Counter/) | Original recording excluded |
-| LCD Name Display | Character LCD and timed character placement | [Project](02_AVR_Interfacing_and_Labs/Interfacing/LCD_Name_Display/) | [GIF preview](02_AVR_Interfacing_and_Labs/Interfacing/LCD_Name_Display/media/lcd_name_display_demo.gif) |
-| LCD Text Display | Character LCD initialization and text output | [Project](02_AVR_Interfacing_and_Labs/Interfacing/LCD_Text_Display/) | Original recording excluded |
-| Keypad Seven-Segment Display | Matrix keypad input and seven-segment output | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Keypad_Seven_Segment_Display/) | Original recording excluded |
-| H-Bridge Relay Control | Relay switching and H-bridge isolation | [Project](02_AVR_Interfacing_and_Labs/Interfacing/H_Bridge_Relay_Control/) | Original recording excluded |
-| Pushbutton DC Motor Toggle | Pushbutton input and motor switching | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Pushbutton_DC_Motor_Toggle/) | Original recording excluded |
-| LDR ADC Light Monitor | ADC, LDR, LCD, and status LEDs | [Project](02_AVR_Interfacing_and_Labs/Interfacing/LDR_ADC_Light_Monitor/) | [GIF preview](02_AVR_Interfacing_and_Labs/Interfacing/LDR_ADC_Light_Monitor/media/ldr_adc_demo.gif) |
-| Timer DC Motor Control | Timer interrupts and bidirectional DC motor control | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Timer_DC_Motor_Control/) | Original recording excluded |
-| Timer1 Servo Position Control | Timer1 PWM and servo position sweep | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Timer1_Servo_Position_Control/) | [GIF preview](02_AVR_Interfacing_and_Labs/Interfacing/Timer1_Servo_Position_Control/media/servo_position_demo.gif) |
-| Keypad UART PWM Control | Keypad input, USART, and PWM control | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Keypad_UART_PWM_Control/) | Original recording excluded |
-| Ten-Pin Seven-Segment Display | Multi-digit seven-segment wiring and control | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Ten_Pin_Seven_Segment_Display/) | [GIF preview](02_AVR_Interfacing_and_Labs/Interfacing/Ten_Pin_Seven_Segment_Display/media/ten_pin_seven_segment_demo.gif) |
-| ADC Experiments | ADC readings and observed outputs | [Project](02_AVR_Interfacing_and_Labs/Interfacing/ADC_Experiments/) | Original recordings excluded |
-| LED Blink | Digital output and timing | [Project](02_AVR_Interfacing_and_Labs/Interfacing/LED_Blink/) | Original recording excluded |
-| Seven-Segment Display | Seven-segment output | [Project](02_AVR_Interfacing_and_Labs/Interfacing/Seven_Segment_Display/) | Original recording excluded |
+| Project | What it demonstrates |
+|---|---|
+| [**AVR ATmega32 Layered Drivers**](https://github.com/MohamedGamal045/AVR-ATmega32-Layered-Drivers) | A reusable, modular driver library for ATmega32 microcontroller applications |
+| [**ITI AVR ATmega32 Applications**](https://github.com/MohamedGamal045/ITI-AVR-ATmega32-Embedded-Applications) | C programming, AVR interfacing, Proteus simulations, and an embedded RC car |
+| [**Clinic Management System**](01_C_Programming/Clinic_Management_System/) | Structured C application for patient records and appointment management |
+| [**Bluetooth & Autonomous RC Car**](04_Final_RC_Car_Project/) | Bluetooth control, ultrasonic sensing, manual driving, and autonomous behavior |
 
-## C and algorithm labs
+</div>
 
-| Lab | Concepts | Folder | Screenshots |
-| --- | --- | --- | --- |
-| Personal Profile | C output and formatted strings | [Lab](02_AVR_Interfacing_and_Labs/Labs/Personal_Profile/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Personal_Profile/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Personal_Profile/media/output.png) |
-| Integer Arithmetic | Addition and multiplication | [Lab](02_AVR_Interfacing_and_Labs/Labs/Integer_Arithmetic/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Integer_Arithmetic/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Integer_Arithmetic/media/output.png) |
-| Boolean Values | Boolean constants and representation | [Lab](02_AVR_Interfacing_and_Labs/Labs/Boolean_Values/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Boolean_Values/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Boolean_Values/media/output.png) |
-| Driving Age Eligibility | Conditions and comparisons | [Lab](02_AVR_Interfacing_and_Labs/Labs/Driving_Age_Eligibility/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Driving_Age_Eligibility/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Driving_Age_Eligibility/media/output.png) |
-| Grade Classification | Conditional ranges | [Lab](02_AVR_Interfacing_and_Labs/Labs/Grade_Classification/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Grade_Classification/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Grade_Classification/media/output.png) |
-| ID Name Lookup | Switch/case selection | [Lab](02_AVR_Interfacing_and_Labs/Labs/ID_Name_Lookup/) | [Source](02_AVR_Interfacing_and_Labs/Labs/ID_Name_Lookup/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/ID_Name_Lookup/media/output.png) |
-| Circle Area and Cylinder Volume | Floating-point calculations | [Lab](02_AVR_Interfacing_and_Labs/Labs/Circle_Area_Cylinder_Volume/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Circle_Area_Cylinder_Volume/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Circle_Area_Cylinder_Volume/media/output.png) |
-| Array Reverse | Arrays and iteration | [Lab](02_AVR_Interfacing_and_Labs/Labs/Array_Reverse/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Array_Reverse/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Array_Reverse/media/output.png) |
-| Binary Search | Sorted-array search | [Lab](02_AVR_Interfacing_and_Labs/Labs/Binary_Search/) | [Source](02_AVR_Interfacing_and_Labs/Labs/Binary_Search/media/source.png) · [Output](02_AVR_Interfacing_and_Labs/Labs/Binary_Search/media/output.png) |
+<h2 align="center">📊 GitHub Analytics</h2>
 
-## Proteus simulations
+<div align="center">
 
-| Simulation | Concepts | Project |
-| --- | --- | --- |
-| LM35 Temperature LCD | Analog temperature sensor, ADC, LCD | [Project](03_Proteus_Simulations/LM35_Temperature_LCD/) |
-| Potentiometer ADC LCD | ADC input and LCD output | [Project](03_Proteus_Simulations/Potentiometer_ADC_LCD/) |
-| LDR ADC LCD | Light sensing, ADC, LCD | [Project](03_Proteus_Simulations/LDR_ADC_LCD/) |
-| Potentiometer ADC | ADC input | [Project](03_Proteus_Simulations/Potentiometer_ADC/) |
-| LED Blink | Digital output and timing | [Project](03_Proteus_Simulations/LED_Blink/) |
-| DIP Switch LED Control | Digital input/output | [Project](03_Proteus_Simulations/DIP_Switch_LED_Control/) |
-| H-Bridge Relay | Relay and H-bridge switching | [Project](03_Proteus_Simulations/H_Bridge_Relay/) |
-| H-Bridge Motor | Motor direction control | [Project](03_Proteus_Simulations/H_Bridge_Motor/) |
-| LCD Display | Character LCD | [Project](03_Proteus_Simulations/LCD_Display/) |
-| LCD Keypad Interface | Keypad input and LCD output | [Project](03_Proteus_Simulations/LCD_Keypad_Interface/) |
-| LED Control | Digital output | [Project](03_Proteus_Simulations/LED_Control/) |
-| LED PWM Control | Timer/PWM brightness control | [Project](03_Proteus_Simulations/LED_PWM_Control/) |
-| DC Motor | Motor switching | [Project](03_Proteus_Simulations/DC_Motor/) |
-| Relay Control | Relay output | [Project](03_Proteus_Simulations/Relay_Control/) |
-| Seven-Segment Display | Seven-segment output | [Project](03_Proteus_Simulations/Seven_Segment_Display/) |
-| Seven-Segment Keypad Display | Keypad and seven-segment output | [Project](03_Proteus_Simulations/Seven_Segment_Keypad_Display/) |
-| Seven-Segment Keypad Interface | Keypad and seven-segment output | [Project](03_Proteus_Simulations/Seven_Segment_Keypad_Interface/) |
-| Stepper Motor | Stepper motor sequencing | [Project](03_Proteus_Simulations/Stepper_Motor/) |
-| UART Communication | Serial communication | [Project](03_Proteus_Simulations/UART_Communication/) |
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=MohamedGamal045&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true&title_color=00C9A7&icon_color=00C9A7&text_color=0B3D91" alt="GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedGamal045&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=00C9A7&text_color=0B3D91" alt="Most used programming languages" />
 
-## Final RC car
+</div>
 
-See the [RC car project README](04_Final_RC_Car_Project/README.md) for functionality, firmware dependencies, hardware setup notes, and project media.
+<div align="center">
 
-![Final RC car hardware](04_Final_RC_Car_Project/media/photos/20250916_123242.jpg)
+<img src="https://nirzak-streak-stats.vercel.app/?user=MohamedGamal045&theme=transparent&hide_border=true&ring=00C9A7&fire=00C9A7&currStreakLabel=0B3D91" alt="GitHub contribution streak" />
 
-**Bluetooth-controlled driving**
+</div>
 
-![RC car responding to Bluetooth commands](04_Final_RC_Car_Project/media/rc_car_bluetooth_demo.gif)
+<h2 align="center">🎮 Beyond the Code</h2>
 
-**RC car motion highlight**
+<div align="center">
 
-![RC car moving during a project demonstration](04_Final_RC_Car_Project/media/rc_car_motion_demo.gif)
+```text
+🤖 Robotics       ████████████████████  Building
+🔌 Embedded       ████████████████████  Developing
+🏭 Automation     ███████████████████   Learning
+📹 Content        ███████████████████░  Sharing
+```
+
+</div>
+
+<h2 align="center">🤝 Let's Connect</h2>
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-MohamedGamal045-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohamedGamal045)
+[![MG Engineer](https://img.shields.io/badge/MG_Engineer-Content_Creator-00C9A7?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/MohamedGamal045)
+
+<br /><br />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&pause=1200&color=0B3D91&center=true&vCenter=true&width=680&lines=Turning+Ideas+into+Intelligent+Machines.;Always+Learning.+Always+Building." alt="Engineering motto" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0B3D91,100:00C9A7" alt="Footer banner" />
