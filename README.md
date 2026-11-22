@@ -14,6 +14,7 @@ The `MG_AVR_Atmega32` layered driver library has already been published separate
 | AVR interfacing and labs | 15 AVR peripheral demonstrations plus 9 C/algorithm labs, with source, IDE files, screenshots, and demos | [`02_AVR_Interfacing_and_Labs/`](02_AVR_Interfacing_and_Labs/) |
 | Proteus simulations | 19 Proteus projects for ADC, LCD, LED, motor, keypad, seven-segment, stepper, relay, and UART exercises | [`03_Proteus_Simulations/`](03_Proteus_Simulations/) |
 | Final RC car | ATmega32-oriented firmware for Bluetooth/manual and ultrasonic/autonomous driving, plus project photos and videos | [`04_Final_RC_Car_Project/`](04_Final_RC_Car_Project/) |
+| AI-powered drone | Aerial image detection, transmitter/receiver control, IoT monitoring, PCB hardware, mechatronics development, and Launch Exhibition recognition | [`05_AI_Powered_Drone_Project/`](05_AI_Powered_Drone_Project/) |
 
 ## C programming projects
 
